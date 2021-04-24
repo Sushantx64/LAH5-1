@@ -1,0 +1,6 @@
+gunicorn
+jinja2
+parse
+webob
+brotli
+firebase-admin
