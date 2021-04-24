@@ -1,0 +1,5 @@
+[{
+      "relation": ["delegate_permission/common.handle_all_urls"],
+      "target" : { "namespace": "android_app", "package_name": "ml.sushantshah.portfolio",
+                   "sha256_cert_fingerprints": ["33:83:EC:24:12:01:54:53:4D:BC:B9:E3:33:2D:93:E0:84:D0:99:01:8F:FA:25:04:4E:61:6A:AD:60:E5:90:93"] }
+    }]

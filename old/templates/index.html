@@ -1,0 +1,101 @@
+{% extends "base.html" %}
+
+{% block css %}
+    <link href="css/index.css" rel="stylesheet" defer/>
+    <link href="css-small/index.css" rel="stylesheet" media="screen and (max-width:1200px)" defer/>
+    <link href="css-small/index.css" rel="stylesheet" media="screen and (max-width:1200px)" defer/>
+{% endblock %}
+
+{% block body %}
+    <a name="home">
+        <section class="home align-items-center" id="topImage" data-aos="">
+            <div class="text">
+                <h1 class="paral">Hello, Sushant Here</h1>
+                <p class="paral">
+                    Welcome To This Website.<br>
+                    I am Sushant Shah A Developer From India. I Have Experience In Android App Development, Web Development, Python, Java, JavaScript, Machine Learning and so on...
+                </p>
+            </div>
+        </section>
+        <section>
+            <center>
+                <div class="skill-box align-items-center">
+                    <div class="skill">
+                        <center>
+                            <img src="images/image1.png" height="64px" class="skill-img" alt="Python"/><br>
+                            PYTHON
+                        </center>
+                    </div>
+                    <div class="skill">
+                        <center>
+                            <img src="images/image2.png" height="64px" class="skill-img" alt="JavaScript"/><br>
+                            JAVASCRIPT
+                        </center>
+                    </div>
+                    <div class="skill">
+                        <center>
+                            <img src="images/image3.png" height="64px" class="skill-img" alt="Machine Learning"/><br>
+                            MACHINE LEARNING
+                        </center>
+                    </div>
+                    <div class="skill">
+                        <center>
+                            <img src="images/image4.png" height="64px" class="skill-img" alt="Java"/><br>
+                            JAVA
+                        </center>
+                    </div>
+                    <div class="skill">
+                        <center>
+                            <img src="images/image5.png" height="64px" class="skill-img" alt="Android"/><br>
+                            ANDROID
+                        </center>
+                    </div>
+                </div>
+            </center>
+        </section>
+    </a>
+    <a name="projects">
+        <center>
+            <section class="home projects align-items-center" id="secondImage">
+                <form method="GET" action="./projects">
+                    <Button class="btn btn-primary" id="projects-button">SEE MY WORK</Button>
+                </form>
+            </section>
+        </center>
+    </a>
+    </br>
+    </br>
+    </br>
+    </br>
+    </br>
+    </br>
+    </br>
+    </br>
+    </br>
+    </br>
+    </br>
+    </br>
+    <div class="LI-profile-badge"  data-version="v1" data-size="medium" data-locale="en_US" data-type="horizontal" data-theme="light" data-vanity="iamsushantshah"><a class="LI-simple-link" href='https://in.linkedin.com/in/iamsushantshah?trk=profile-badge'>Sushant Shah</a></div>
+
+    <a name="Contact">
+        <section class="home projects align-items-center" id="contactImage">
+                <form>
+                    <div class="form-row">
+                        <div class="form-group col-md-6">
+                            <label for="email">Email</label>
+                            <input type="email" class="form-control" placeholder="Email" id="email">
+                        </div>
+                        <div class="form-group col-md-6">
+                            <label for="message">Message</label>
+                            <textarea class="form-control" id="message"></textarea>
+                        </div>
+                    <button type="submit" class="btn btn-primary">Send Email!</button>
+                </form>
+        </section>
+    </a>
+{% endblock %}
+<script>
+    function say(){
+        alert('I Know Nothing!');
+    }
+</script>

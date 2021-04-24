@@ -1,0 +1,36 @@
+
+35.191.10.87 - - [2021-03-02 14:17:40]GET
+Request:/
+Response Code:200
+
+35.191.9.210 - - [2021-03-02 14:17:42]GET
+Request:/css/index.css
+Response Code:200
+
+35.191.3.139 - - [2021-03-02 14:17:43]GET
+Request:/images/image1.png
+Response Code:200
+
+35.191.3.227 - - [2021-03-02 14:17:43]GET
+Request:/images/image4.png
+Response Code:200
+
+35.191.3.146 - - [2021-03-02 14:17:46]GET
+Request:/images/secondBG.webp
+Response Code:200
+
+35.191.11.51 - - [2021-03-02 14:18:30]GET
+Request:/favicon.ico
+Response Code:404
+
+35.191.3.218 - - [2021-03-02 14:22:13]GET
+Request:/
+Response Code:200
+
+35.191.3.90 - - [2021-03-02 14:33:43]GET
+Request:/
+Response Code:200
+
+35.191.2.83 - - [2021-03-02 14:45:09]GET
+Request:/
+Response Code:200

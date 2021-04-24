@@ -1,0 +1,38 @@
+{
+    "name": "Sushant Shah",
+    "short_name": "Sushant",
+    "description": "I am Sushant Shah, I Develop Cross-Platform Desktop, Android Apps, WebApps, And Progressive WebApps. Ready To Collaborate. Open For Freelance.",
+    "lang": "en",
+    "theme_color": "#f2b31a",
+    "start_url": "/?pwa=true",
+    "scope": "/",
+    "display": "standalone",
+    "orientation": "portrait-primary",
+    "background_color": "#f2b31a",
+    "icons": [
+        {
+            "src": "/icon-192x192.png",
+            "sizes": "192x192",
+            "type": "image/png",
+            "purpose": "maskable"
+        },
+        {
+            "src": "/icon-256x256.png",
+            "sizes": "256x256",
+            "type": "image/png",
+            "purpose": "maskable"
+        },
+        {
+            "src": "/icon-384x384.png",
+            "sizes": "384x384",
+            "type": "image/png",
+            "purpose": "maskable"
+        },
+        {
+            "src": "/icon-512x512.png",
+            "sizes": "512x512",
+            "type": "image/png",
+            "purpose": "maskable"
+        }
+    ]
+}

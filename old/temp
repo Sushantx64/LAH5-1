@@ -1,0 +1,41 @@
+
+import smtpd, smtplib, ssl
+serverd = smtpd.SMTPServer(('0.0.0.0', 1024), None)
+
+sender = 'no_reply@mydomain.com'
+receivers = ['sushant128815@gmail.com']
+
+message = """From: No Reply <no_reply@mydomain.com>
+To: Person <person@otherdomain.com>
+Subject: Test Email
+
+This is a test e-mail message.
+"""
+
+print("a")
+smtp_server = "0.0.0.0"
+port = 1024  # For starttls
+sender_email = "mail@sushantshah.com"
+password = input("Type your password and press enter: ")
+message = """\
+Subject: Hi there
+
+This message is sent from Python."""
+server = smtplib.SMTP(smtp_server,port)
+
+# Create a secure SSL context
+context = ssl.create_default_context()
+
+# Try to log in to server and send email
+try:
+    server.ehlo() # Can be omitted
+    server.starttls(context=context) # Secure the connection
+    server.ehlo() # Can be omitted
+    # TODO: Send email here
+    server.sendmail(sender_email, "sushant128815@gmail.com", message)
+except Exception as e:
+    # Print any error messages to stdout
+    print(e)
+finally:
+    server.quit() 
+print("a")

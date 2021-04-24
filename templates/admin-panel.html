@@ -1,0 +1,36 @@
+{% extends "base.html" %}
+{% block title %}
+PWA Store
+{% endblock %}
+{% block css %}
+<link href="css/style-index.css?{{ key }}" rel="stylesheet">
+{% endblock %}
+
+{% block js %}
+    <script src="js/index.js?{{ key }}"></script>
+{% endblock %}
+
+{% block body %}
+<div class="ViewPort" id="home">
+    <div class="ViewPort children-center">
+        <h1>
+            PWAStore
+        </h1>
+        <p>SubHead</p>
+    </div>
+</div>
+<div class="ViewPort">
+    <div class="row">
+        {% for app in apps %}
+            <div class="appcard vertflex col-xs-6 col-sm-6 col-md-4 col-lg-4 col-xl-2" onclick="window.locaton.replace('{{ app['href'] }}')">
+                <div>
+                    {{ app["name"] }}
+                </div>
+                <div>
+                    {{ app["description"] }}
+                </div>
+            </div>
+        {% endfor %}
+    </div>
+</div>
+{% endblock %}
