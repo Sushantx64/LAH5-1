@@ -36,5 +36,3 @@ def github(request,response):
 @app.catchURL('/merch/dlsl')
 def merchDLSL(request,response):
     response.body = b'<script>window.location.replace("https://teeshopper.in/products/Rookie-tee-dev")</script>'
-    
-app.run("app")
